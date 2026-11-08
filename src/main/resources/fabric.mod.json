@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "scythemod",
+  "version": "${version}",
+  "name": "Scythe Mod",
+  "description": "Adds a powerful netherite scythe to Minecraft.",
+  "authors": ["dev0-ship-it"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.scythemod.ScytheMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
